@@ -1,0 +1,58 @@
+#TopTen{
+    color: firebrick;
+    position:fixed;
+    right: 50px;
+    top: 20px;
+  }
+  
+  
+  p{
+    color: rgb(147, 223, 24);
+    margin: 20px;
+    padding:  35px;
+    font-size: 50px;
+      
+    
+    
+  }
+  ol{
+    border-style: outset;
+    background-color:blue;
+    margin: 20px;
+    padding:  35px;
+  }
+  
+  a{
+    text-decoration: none
+  
+  }
+  .colorgreen{
+    color: greenyellow
+  }
+  span{
+    color: black;
+    
+   background-color: hsl(0,50%, 50%);
+  }
+  .dim {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    float: right;
+  }
+  ul {
+    border-style: dotted;
+    background-color: hsla(235, 100%, 50%, .2);
+  }
+  
+  .starimage{
+    height: 50px;
+    width: 50px;
+  }
+ 
+  #AboutMe{
+    color: #000;
+    position: sticky;
+    right: 20px;
+    top: 20px;
+  }
