@@ -26,7 +26,10 @@ this.simulatedAmountsOfCookies.push(cookieSold);
         return this.simulatedAmountsOfCookies;
       },
       render : function(){
+
         let valueOfSalesFile = document.getElementById('sales'); 
+
+
 let h3E = document.createElement('h3');
 h3E.textContent = this.locationName;
 valueOfSalesFile.appendChild(h3E);
@@ -233,15 +236,5 @@ ulE.appendChild(liE);
       };
       Lima.getFinalResult();
       Lima.render();
-      
-
-
-
-
-
-
-
-      
-    
 
 
