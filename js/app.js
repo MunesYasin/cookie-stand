@@ -26,9 +26,9 @@ const seattle = {
         return this.simulatedAmountsOfCookies;
       },
       render : function(){
-let H3E = document.createElement('h3');
-H3E.textContent = this.locationName;
-valueOfSalesFile.appendChild(H3E);
+let h3E = document.createElement('h3');
+h3E.textContent = this.locationName;
+valueOfSalesFile.appendChild(h3E);
 let ulE = document.createElement('ul');
 valueOfSalesFile.appendChild(ulE);
 for ( let i =0;i<this.simulatedAmountsOfCookies.length;i++){
