@@ -12,6 +12,7 @@ function SalmonCookie (location , minNuOfCustomer,maxNuOfCustomer,averageOfCooki
     this.customersEachHour = [];
     shops.push(this);
   
+
 }
 
 
@@ -38,8 +39,10 @@ SalmonCookie.prototype.getNuOfCustomer = function() {
   
 
 
+
   /*  const Tokyo = {
         workingHour : [ '6AM','7Am','8Am','9Am','10Am','11Am','12Am','1pm','2pm','3pm','4pm','5pm','6pm','7pm',],
+
         minNuOfCustomers: 3,
         maxNuOfCustomers: 24,
         locationName: 'Tokyo',
@@ -82,8 +85,12 @@ SalmonCookie.prototype.getNuOfCustomer = function() {
       Tokyo.getFinalResult();
       Tokyo.render();
       
+
       const Dubai = {
         workingHour : [ '6AM','7Am','8Am','9Am','10Am','11Am','12Am','1pm','2pm','3pm','4pm','5pm','6pm','7pm',],
+
+
+ 
         minNuOfCustomers: 11,
         maxNuOfCustomers: 38,
         locationName: 'Dubai',
@@ -125,8 +132,12 @@ SalmonCookie.prototype.getNuOfCustomer = function() {
       };
       Dubai.getFinalResult();
       Dubai.render();
+
       const Paris = {
         workingHour : [ '6AM','7Am','8Am','9Am','10Am','11Am','12Am','1pm','2pm','3pm','4pm','5pm','6pm','7pm',],
+
+
+
         minNuOfCustomers: 20,
         maxNuOfCustomers: 38,
         locationName: 'Paris',
@@ -170,8 +181,14 @@ SalmonCookie.prototype.getNuOfCustomer = function() {
       Paris.render();
       
       
+
       const Lima = {
         workingHour : [ '6AM','7Am','8Am','9Am','10Am','11Am','12Am','1pm','2pm','3pm','4pm','5pm','6pm','7pm',],
+
+
+
+
+      
         minNuOfCustomers: 2,
         maxNuOfCustomers: 16,
         locationName: 'Lima',
@@ -212,6 +229,7 @@ SalmonCookie.prototype.getNuOfCustomer = function() {
         }
       };
       Lima.getFinalResult();
+
       Lima.render(); */
 
 
@@ -269,6 +287,7 @@ SalmonCookie.prototype.getNuOfCustomer = function() {
         let totalDataForEachShop = document.createElement('td');
         dataRow.appendChild(totalDataForEachShop);
         totalDataForEachShop.textContent = this.totalOfCookies;
+
 
         
 
