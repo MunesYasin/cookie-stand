@@ -294,7 +294,7 @@ SalmonCookie.prototype.getNuOfCustomer = function() {
         footerTh.textContent = "totals";
         
         let workingHour = [ '6AM','7Am','8Am','9Am','10Am','11Am','12Am','1pm','2pm','3pm','4pm','5pm','6pm','7pm',]
-        let totalOfAll = 0;
+        
         for (let i = 0; i <= workingHour.length; i++) {
             let totalEachHour=0;
             for (let j = 0; j < shops.length; j++) {
@@ -308,13 +308,13 @@ SalmonCookie.prototype.getNuOfCustomer = function() {
            
           
         }
-totalOfAll+=totalEachHour;
+
         
 
           let dataRow = document.createElement('tr');
         let totalDataForEachShop = document.createElement('td');
         dataRow.appendChild(totalDataForEachShop);
-        totalDataForEachShop.textContent=totalOfAll ;
+        
 
       }
 
